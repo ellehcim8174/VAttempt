@@ -323,7 +323,7 @@ void main (void)
   printf( GOTO_YX , 13, 18);
   printf( FORE_BACK , COLOR_GREEN, COLOR_WHITE );
   if(1/period < 1000 )
-  printf("period=%5.6f frequency=%5.6f", 2*halfperiod, 1/(2*halfperiod));
+  printf("period=%5.6f frequency=%5.6f", period, 1/period);
   printf("\x1B[K");
 	waitms(100);  // Wait 100ms before next round of measurements.
 	}  
